@@ -1,0 +1,130 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+#smart2 {
+  position: absolute;
+  color: #ffffff;
+  bottom: 90px;
+  font-weight: 700;
+  line-height: 75px;
+  font-size: 3em;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Poppins', sans-serif;
+  left: -130px;
+  top: -330px;
+  padding: 0px;
+  text-align: left;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding: 12px 6px;
+}
+#rat222{
+  display: none;
+}
+#join2 {
+  border: none;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background-color: #0087DB;
+  font-weight: 700;
+  line-height: 21px;
+  font-size: 14px;
+  text-align: left;
+  background-color: #0087DB;
+  padding: 14px 42px;
+  position: absolute;
+  top: -130px;
+  left: -130px;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  /* max-width: 100%; */
+  font-size: 12px;
+}
+
+.smart {
+  position: absolute;
+  transform: translateY(-250px);
+}
+
+.join {
+  position: absolute;
+  transform: translateY(-150px);
+}
+#join {
+  transform: translate(-500px,-150px);
+}
+
+
+.smart {
+  transform: translate(-200px,-300px);
+  font-size: 60px;
+}
+
+.one {
+  margin-left: 20px;
+}
+.two {
+  margin-right: 30px;
+}
+.round{
+  
+  width: 180%!important;
+  background-color: azure;
+  
+
+}
+
+@media screen and  (max-width :478px) {
+
+  .cat{
+      display: none;
+  
+  }
+  .dog1{
+      border: 2px solid green;
+      width: 900%;
+  }
+  .dog2{
+      border: 2px solid green;
+      width: 100%;
+  }
+  .dog3{
+      border: 2px solid green;
+      width: 480%;
+      height: 200px;
+  }
+  #first {
+      display: none;
+  }
+  #carol {
+      background-color: blue;
+  }
+ 
+  #container {
+      display: block;
+  }
+  
+  #rat222{
+     
+      display: flex;
+  }
+  
+}
+/* carousel css  */
+.big{
+  border: 2px solid red;
+  margin-top: 80px !important;
+}
