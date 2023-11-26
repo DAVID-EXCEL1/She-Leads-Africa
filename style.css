@@ -1,5 +1,5 @@
 body {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* navbar css */
@@ -303,9 +303,9 @@ body {
         margin-right: 70px;
     }
 
-    #with-no {
+    #with {
         display: block;
-        margin-top: 120px;
+        /* margin-top: 120px; */
         transform: translate(-400px, -100px);
     }
 
@@ -339,13 +339,10 @@ body {
 
 #with {
     margin-left: 130px;
-    transform: translate(400px, -350px);
 }
 
-#high {}
-
-#with-no {
-    display: none;
+#high p {
+    text-wrap: nowrap;
 }
 
 #just {
@@ -353,7 +350,14 @@ body {
 }
 
 #it {
-    margin-left: -150px;
+    margin-top: 70px;
+    margin-left: -170px;
+    text-align: left;
+}
+
+#it p {
+    text-align: center;
+    text-wrap: nowrap;
 }
 
 #flex h4 {
