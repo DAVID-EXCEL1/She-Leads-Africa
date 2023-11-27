@@ -204,13 +204,13 @@ body {
     height: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 70px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @media screen and (max-width:478px) {
     #grid-container {
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
 
     #grid-item p {
@@ -260,6 +260,7 @@ body {
     }
 
     #flex {
+        display: flex;
         flex-direction: column;
     }
 
@@ -303,11 +304,15 @@ body {
         margin-right: 70px;
     }
 
-    #with {
-        display: block;
-        /* margin-top: 120px; */
-        transform: translate(-400px, -100px);
+    .d-flex {
+        flex-direction: column-reverse;
     }
+
+    /* #with {
+        display: block;
+        margin-top: 120px;
+        transform: translate(-400px, -100px);
+    } */
 
 
     #just {
@@ -315,11 +320,14 @@ body {
     }
 
     #it {
-        transform: translate(70px, 0px);
+        transform: translate(20%, 0px);
+        /* width: 100%; */
     }
 
     #it p {
-        transform: translate(50px, 0px);
+        /* transform: translate(70px, 0px); */
+        /* width: 100%; */
+        text-align: center;
     }
 }
 
@@ -358,6 +366,15 @@ body {
 #it p {
     text-align: center;
     text-wrap: nowrap;
+}
+
+@media screen and (max-width:478px) {
+    #it {
+        margin-left: -100px;
+        text-align: center;
+        text-wrap: wrap;
+        line-break: none;
+    }
 }
 
 #flex h4 {
@@ -442,6 +459,13 @@ body {
     line-height: normal;
 }
 
+@media screen and (max-width:478px) {
+    #goose h3 {
+        padding: 0px 15px 0px 15px;
+        font-size: 18px;
+    }
+}
+
 #goose p {
     color: #FFFFFF;
     font-family: 'DM Serif Display', serif;
@@ -454,8 +478,16 @@ body {
     text-align: center;
 }
 
+@media screen and (max-width:478px) {
+    #goose p {
+        font-size: 16px;
+        margin-top: 12px;
+    }
+}
+
 #infinite {
     padding-bottom: 90px;
+    padding-left: 80px;
     border-bottom: 2px solid white;
 }
 
@@ -465,12 +497,21 @@ body {
     border-radius: 6px;
     font-size: 12px;
     line-height: 20px;
-    margin-left: 300px;
+    margin-left: 260px;
     padding: 13px 10px;
     width: 500px;
     font-weight: 400;
     text-align: start;
     text-indent: 6px;
+}
+
+@media screen and (max-width:478px) {
+    #infinite input {
+        margin-left: 0px;
+        margin-bottom: 10px;
+        width: 155px;
+        color: black;
+    }
 }
 
 #infinite button {
@@ -492,6 +533,8 @@ body {
     margin-right: 80px;
     margin-top: 70px;
     list-style: none;
+    z-index: 1;
+    color: #0087DB;
 }
 
 #nine {
